@@ -23,36 +23,52 @@ body {
 }
 .nav-logo {
 	float:left;
-	width: 15em;
+	width: 20em;
+	padding-top: 2em;
+	padding-left: 5em;
 }
 nav {
 	float:right;
+	padding-top: 2em;
+	padding-right: 5em;
 }
 nav a {
 	display: inline-block;
 	color: #ED242F;
 	font-family: 'Roboto Slab', serif;
 	padding:1em;
+	text-decoration: none;
 }
 
 #phone {
 	color: #ED242F;
 }
 .hero-text {
+	padding-top: 6em;
 	margin: 0 auto;
 	color: #1561AD;
 	/** border: solid 2px #1561AD; **/
-	font-weight: 900;
+	font-weight: bold;
 }
 .cta {
 	background-color: #1561AD;
 	color: white;
 	padding: 20px;
-	margin-top: 20px;
+	margin-top: 3em;
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 4px;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.24), 3px 3px 5px rgba(0,0,0,0.19);
+}
+
+.hero-text h1 {
+	font-size: 3em;
+}
+
+.hero-text p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	padding-top: 2em;
 }
 
 .content {
@@ -96,10 +112,23 @@ p {
 	float: right;
 }
 
+.foot-logo {
+	margin: 0 auto;
+	width: 20em;
+	padding-bottom: 3em;
+}
 
 
-
-
+input[type=submit] {
+	background-color: #1561AD;
+	color: white;
+	padding: 20px;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.24), 3px 3px 5px rgba(0,0,0,0.19);
+}
 
 
 
