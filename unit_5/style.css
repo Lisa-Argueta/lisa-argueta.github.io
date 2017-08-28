@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size:16px;
+	line-height:1.3;
+	color:#333;
+	text-align: center;
+}
+/** the hero image **/
+
+#intro {
+	background: url("images/mainphoto.jpg");
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 5em 0 0;
+}
+.nav-logo {
+	float:left;
+	width: 20em;
+	padding-top: 2em;
+	padding-left: 5em;
+}
+nav {
+	float:right;
+	padding-top: 2em;
+	padding-right: 5em;
+}
+nav a {
+	display: inline-block;
+	color: #ED242F;
+	font-family: 'Roboto Slab', serif;
+	padding:1em;
+	text-decoration: none;
+}
+
+#phone {
+	color: #ED242F;
+}
+.hero-text {
+	padding-top: 6em;
+	margin: 0 auto;
+	color: #1561AD;
+	/** border: solid 2px #1561AD; **/
+	font-weight: bold;
+}
+.cta {
+	background-color: #1561AD;
+	color: white;
+	padding: 20px;
+	margin-top: 3em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.24), 3px 3px 5px rgba(0,0,0,0.19);
+}
+
+.hero-text h1 {
+	font-size: 3em;
+}
+
+.hero-text p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	padding-top: 2em;
+}
+
+.content {
+	padding: 5em 10em 5em 10em;
+}
+
+#about-us{
+	padding: 10em;
+	background-color: #E4E7F3;
+}
+
+.repair {
+	float: left;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.install {
+	display: inline-block;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.veterans {
+	float: right;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+h2 {
+	font-size: 2.5em;
+	color: #ED242F;
+	font-weight: bold;
+}
+
+h3 {
+	padding-top: 1.5em;
+	color: #1561AD;
+	font-size: 2em;
+}
+
+p {
+	padding-top: 1.5em;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.container {
+	margin-left: 26%;
+	width: 43em;
+}
+
+.form-1 {
+	float: left;
+}
+.form-2 {
+	float: right;
+}
+
+.foot-logo {
+	margin: 0 auto;
+	width: 20em;
+	padding-bottom: 3em;
+}
+
+
+input[type=submit] {
+	background-color: #1561AD;
+	color: white;
+	padding: 20px;
+	font-size: 1em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.24), 3px 3px 5px rgba(0,0,0,0.19);
+}
+
+
+

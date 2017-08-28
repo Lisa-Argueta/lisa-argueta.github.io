@@ -78,7 +78,27 @@ nav a {
 #about-us{
 	padding: 10em;
 	background-color: #E4E7F3;
+}
 
+.repair {
+	float: left;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.install {
+	display: inline-block;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.veterans {
+	float: right;
+	width: 33%;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 h2 {
@@ -102,7 +122,6 @@ p {
 .container {
 	margin-left: 26%;
 	width: 43em;
-
 }
 
 .form-1 {
